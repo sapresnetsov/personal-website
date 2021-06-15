@@ -4,14 +4,15 @@ import React from 'react';
 import { css, jsx } from '@emotion/react';
 import LightDarkSwitch from './lightDarkSwitch';
 
+
 const wrapperStyle = css({
     display: 'flex',
-    jusitifyContent: 'space-between',
-    height: '20px',
-    maxWidth: '1200px',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    height: '40px',
 
     margin: '0 auto',
-    padding: '10px',
+    padding: '0 10px',
 
     borderRadius: '5px',
     boxShadow: '0 0 5px black',
@@ -37,7 +38,6 @@ const Component: React.FunctionComponent = () => {
                 {/*<div></div>*/}
 
             </div>
-
         </div>
     )
 };

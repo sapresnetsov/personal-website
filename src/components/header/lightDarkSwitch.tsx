@@ -28,7 +28,6 @@ const StyledSwitch = styled.div<switchProps>`
 
 const Component: React.FunctionComponent = () => {
     const [light, setLight] = useState(true);
-    const [changedState, setChangedState] = useState(false);
 
     const switchLight = () => {
         setLight(!light);
